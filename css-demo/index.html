@@ -36,54 +36,70 @@
         }
 
         body {
-            background-color: sandybrown;
+            background-color: rgb(96, 202, 244);
         }
 
         .special {
             color: cornflowerblue;
             font-size: large;
         }
+
+        .container {
+            margin: 20px 50px;
+            padding: 100px;
+            border: 1px double blue;
+            background-color: whitesmoke;
+        }
+
+        table,
+        th,
+        td {
+            border: 3px solid blue;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Today we will learn about adding style via CSS!</h1>
-    <h2>1. This is how we add sytle with inline</h2>
-    <p style="color:seagreen;">This is a sea green paragraph</p>
-    <p style="color:rgb(235, 11, 223); font-size: 50px;">This is an rgb 235,11,223 with font size 50px paragraph</p>
-    <p style="color: red; font-size:23px; text-align:center; background-color: coral;">this is a red, font size
-        23px,centered paragraph with coral background</p>
+    <div class="container">
+        <h1>Today we will learn about adding style via CSS!</h1>
+        <h2>1. This is how we add sytle with inline</h2>
+        <p style="color:seagreen;">This is a sea green paragraph</p>
+        <p style="color:rgb(235, 11, 223); font-size: 50px;">This is an rgb 235,11,223 with font size 50px paragraph</p>
+        <p style="color: red; font-size:23px; text-align:center; background-color: coral;">this is a red, font size
+            23px,centered paragraph with coral background</p>
 
-    <h2>2. This is how we add sytle with internal css and id + class selectors</h2>
-    <p id="blue-text">I want this text to be blue</p>
-    <p id="red-text">This one should be red</p>
-    <p id="green-24-right-text">This text will be green, 24px, and right aligned</p>
+        <h2>2. This is how we add sytle with internal css and id + class selectors</h2>
+        <p id="blue-text">I want this text to be blue</p>
+        <p id="red-text">This one should be red</p>
+        <p id="green-24-right-text">This text will be green, 24px, and right aligned</p>
 
-    <h2>3. This is how we do css classes</h2>
-    <p class="big-text">I want his text to be really big</p>
-    <p class="big-text right-align">I want this to be big and right aligned</p>
+        <h2>3. This is how we do css classes</h2>
+        <p class="big-text">I want his text to be really big</p>
+        <p class="big-text right-align">I want this to be big and right aligned</p>
 
-    <h2>4. This is how we use element selectors</h2>
-    <h3>I want this h3 to be aqua</h3>
-    <h4>I want this h4 to be aqua as well</h4>
+        <h2>4. This is how we use element selectors</h2>
+        <h3>I want this h3 to be aqua</h3>
+        <h4>I want this h4 to be aqua as well</h4>
 
-    <h2>5. Divs</h2>
+        <h2>5. Divs</h2>
 
-    <div class="special">
-        <p>This paragraph is a div</p>
-        <p>This paragraph is also a div</p>
+        <div class="special">
+            <p>This paragraph is a div</p>
+            <p>This paragraph is also a div</p>
 
 
-        <table>
-            <tr>
-                <th>Day of Week</th>
-                <th>Food</th>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td>pasta</td>
-            </tr>
-        </table>
+            <table>
+                <tr>
+                    <th>Day of Week</th>
+                    <th>Food</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>pasta</td>
+                </tr>
+            </table>
+        </div>
+
     </div>
 </body>
 
