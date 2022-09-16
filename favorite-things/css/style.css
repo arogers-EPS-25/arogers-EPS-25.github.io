@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(96, 202, 244);
+    background-color: lightblue;
 }
 
 ul {
@@ -31,4 +31,14 @@ ul li a {
 
 ul li a:hover {
     background-color: rgb(133, 176, 190);
+}
+
+.center {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
