@@ -9,9 +9,42 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        .img-size {
-            width: 49%;
+        .container-test {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
             height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: darkseagreen;
+            width: 100%;
+            height: 100%;
+            opacity: 0%;
+            transition: .5s ease;
+        }
+
+        .container-test:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
         }
     </style>
 </head>
@@ -29,25 +62,89 @@
         <p>These are some images from the last year with some of the horses I have ridden.</p>
 
 
+        <!--Section 1-->
+        <div class="container-test">
+            <img src="images/img3-syg.jpg" alt="Horse sniffing treats" class="image img-size">
+            <div class="overlay">
+                <div class="text">Pickles (my geilding) sniffing horse cookies.</div>
+            </div>
+        </div>
+        <div class="container-test">
+            <img src="images/img4-syg.jpg" alt="Horse on road" class="image">
+            <div class="overlay">
+                <div class="text">My POV riding Pickles (my geilding) down the road home.</div>
+            </div>
+        </div>
 
-        <img src="images/img3-syg.jpg" alt="Horse sniffing treats" class="img-size image-border">
-        <img src="images/img4-syg.jpg" alt="Horse on road" class="img-size image-border">
+        <!-- Section 2-->
+        <div class="container-test">
+            <img src="images/img5-syg.jpg" alt="2 People on horse" class="image">
+            <div class="overlay">
+                <div class="text">My bestfriend and I riding Pickles (my geilding) in Tolt McDonald park with a few
+                    peoples' dogs.</div>
+            </div>
+        </div>
+        <div class="container-test">
+            <img src="images/img6-syg.jpg" alt="Horse wearing daisy" class="image">
+            <div class="overlay">
+                <div class="text">My POV riding Pickles (my geilding) with a daisy in his bridle.</div>
+            </div>
+        </div>
 
-        <img src="images/img5-syg.jpg" alt="2 people on horse" class="img-size image-border">
-        <img src="images/img6-syg.jpg" alt="Horse wearing daisy" class="img-size image-border">
+        <!--Section 3-->
+        <div class="container-test">
+            <img src="images/img2-syg.jpg" alt="Riding horse in arena" class="image">
+            <div class="overlay">
+                <div class="text">Me riding Kreamer (client's geilding) in a show warm-up arena in Ada, Oklahoma.</div>
+            </div>
+        </div>
+        <div class="container-test">
+            <img src="images/img7-syg.jpg" alt="Horse wearing dandelions" class="image">
+            <div class="overlay">
+                <div class="text">Pickles (my geilding) wearing dandelions while grazing in my backyard.</div>
+            </div>
+        </div>
+        <!--Section 4-->
+        <div class="container-test">
+            <img src="images/img10-syg.jpg" alt="Horse, human, and dog together" class="image">
+            <div class="overlay">
+                <div class="text">Pickles (my geilding), Molly (my dog), and I posing for a self taken photo from my
+                    birthday trailride.</div>
+            </div>
+        </div>
+        <div class="container-test">
+            <img src="images/img9-syg.jpg" alt="Horse eating grass" class="image">
+            <div class="overlay">
+                <div class="text">Pickles (my geilding) grazing in his pasture after getting a bath in the summer.</div>
+            </div>
+        </div>
 
-        <img src="images/img2-syg.jpg" alt="Riding horse in arena" style="height: 1004px; width:566px"
-            class="image-border">
-        <img src="images/img7-syg.jpg" alt="Horse wearing dandelions" class="img-size image-border">
+        <!--Section 5-->
+        <div class="container-test">
+            <img src="images/img11-syg.jpg" alt="Person on horse" class="image">
+            <div class="overlay">
+                <div class="text">Me sitting on Kreamer (client's geilding) waiting for his turn to show in Ada,
+                    Oklahoma.
+                </div>
+            </div>
+        </div>
+        <div class="container-test">
+            <img src="images/img8-syg.jpg" alt="Person sitting on horse" class="image">
+            <div class="overlay">
+                <div class="text">Me riding Armani (my hunter jumper lease geilding) trying out my new saddle for the
+                    first
+                    time.</div>
+            </div>
+        </div>
 
-        <img src="images/img10-syg.jpg" alt="Horse, human, and dog together" class="img-size image-border">
-        <img src="images/img9-syg.jpg" alt="Horse eating grass" class="img-size image-border">
-
-
-        <img src="images/img11-syg.jpg" alt="Person on horse" class="img-size image-border">
-        <img src="images/img8-syg.jpg" alt="Person sitting on horse" class="img-size image-border">
-
-        <img src="images/img12-syg.jpg" alt="Person on young horse" class="img-size image-border">
+        <!--Section 6-->
+        <div class="container-test">
+            <img src="images/img12-syg.jpg" alt="Person on young horse" class="image">
+            <div class="overlay">
+                <div class="text">Me cooling out Bud (3 year old client's colt) at his first show in Ada, Oklahoma.
+                </div>
+            </div>
+        </div>
 
 
 
