@@ -1,12 +1,12 @@
 .container {
     margin: 20px 50px;
     padding: 100px;
-    border: 1px double blue;
+    border: 1px double rgb(102, 137, 91);
     background-color: whitesmoke;
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(149, 192, 135);
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: rgb(149, 192, 135);
 }
 
 ul li {
@@ -30,7 +30,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: rgb(133, 176, 190);
+    background-color: rgb(102, 137, 91);
 }
 
 .center-text {
@@ -38,5 +38,5 @@ ul li a:hover {
 }
 
 .image-border {
-    border: 3px solid seagreen;
+    border: 3px solid rgb(102, 137, 91);
 }
