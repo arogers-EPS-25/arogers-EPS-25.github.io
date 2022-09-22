@@ -40,3 +40,18 @@ ul li a:hover {
 .image-border {
     border: 3px solid rgb(102, 137, 91);
 }
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold-text {
+    font-weight: 1000;
+    font-size: larger;
+}
+
+.larger-text {
+    font-size: x-large;
+}
