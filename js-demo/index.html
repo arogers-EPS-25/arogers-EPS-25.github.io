@@ -56,14 +56,20 @@
     <hr>
     <h2>Add a Border!</h2>
     <p id="border">Add a border to this text</p>
-    <button onclick="document.getElementById('border').style.border='thick solid black'">Add a border</button>
+    <button onclick="document.getElementById('border').style.border='thick solid black'">Add a thick solid black
+        border</button>
+    <button onclick="document.getElementById('border').style.border='thin solid pink'">Add a thin solid pink
+        border</button>
+    <button onclick="document.getElementById('border').style.border='thick dotted green'">Add a thick dotted green
+        border</button>
+    <button onclick="document.getElementById('border').style.border='none'">Remove border</button>
 
     <script>
 
         function normalAlice() {
             let aliceParagraph = document.getElementById('alice');
             aliceParagraph.style.color = 'black';
-            aliceParagraph.style.fontSize = '20px';
+            aliceParagraph.style.fontSize = '16px';
         }
 
         function askName() {
