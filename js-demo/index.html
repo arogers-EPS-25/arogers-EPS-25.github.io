@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+</head>
+
+<body>
+    <h1>Lets Learn Java Script!</h1>
+    <h2>How are onclick events and alerts done?</h2>
+    <a href="https://www.eastsideprep.org/" target="blank"
+        onclick="alert('Warning! You are navagating awy from this webpage')">School Website</a>
+
+    <hr>
+    <h2>What's my seceret identiy?</h2>
+    <p id="secret"></p>
+    <button
+        onclick="document.getElementById('secret').innerHTML='Spiderman!'; document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
+
+    <hr>
+    <h2>How do we change images with Javascript?</h2>
+    <img src="images/light-off.jfif" alt="light bulb" id="my-image">
+    <button onclick="document.getElementById('my-image').src='images/light-on.jpg'">Turn On Light</button>
+    <button onclick="document.getElementById('my-image').src='images/light-off.jfif'">Turn Off Light</button>
+
+    <hr>
+    <h2>How do I change css styles with a button?</h2>
+    <p id="alice">Hi. I am Alice. </p>
+    <button
+        onclick="document.getElementById('alice').style.color='blue'; document.getElementById('alice').style.fontSize='5px'">Cake:
+        Eat Me</button>
+    <button
+        onclick="document.getElementById('alice').style.color='purple'; document.getElementById('alice').style.fontSize='40px'">Potion:
+        Drink Me</button>
+    <button onclick="normalAlice();">Return to Normal</button>
+
+    <hr>
+    <h2>How do we return user input data?</h2>
+    <button onclick="askName()">What is your name?</button>
+    <p id="askName"></p>
+
+    <hr>
+    <h2>Change the background color!</h2>
+    <button onclick="document.body.style.backgroundColor = 'red'">Click for red</button>
+    <button onclick="document.body.style.backgroundColor = 'orange'">Click for orange</button>
+    <button onclick="document.body.style.backgroundColor = 'yellow'">Click for yellow</button>
+    <button onclick="document.body.style.backgroundColor = 'green'">Click for green</button>
+    <button onclick="document.body.style.backgroundColor = 'blue'">Click for blue</button>
+    <button onclick="document.body.style.backgroundColor = 'purple'">Click for purple</button>
+    <button onclick="document.body.style.backgroundColor = 'white'">Click for regular</button>
+
+    <hr>
+    <h2>Add a Border!</h2>
+    <p id="border">Add a border to this text</p>
+    <button onclick="document.getElementById('border').style.border='thick solid black'">Add a border</button>
+
+    <script>
+
+        function normalAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'black';
+            aliceParagraph.style.fontSize = '20px';
+        }
+
+        function askName() {
+            let nameParagraph = document.getElementById('askName');
+            let name = prompt("What is your name?")
+            //decide what to do
+            if (name === "Batman") {
+                nameParagraph.innerHTML = "Welcome to the batcave Sir."
+            } else {
+                nameParagraph.innerHTML = "hello " + name + "! Nice to meet you!"
+            }
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

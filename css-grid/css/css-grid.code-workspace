@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../share-your-genius"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css-grid"
+	}
+}
