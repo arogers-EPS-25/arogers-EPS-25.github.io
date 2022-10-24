@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda's Truth and Lie Game</title>
+</head>
+<body>
+    <h1>Amanda Rogers's Truth and Lie Game</h1>
+    <p id="greet" style="font-size: x-large;">Welcome!</p>
+
+    <h2>Introductions</h2>
+
+    <form action="" id="name-form">
+        <label for="fname">First Name:</label><br>
+        <input type="text" name="greet" id="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="greet" id="lname"><br>
+        <label for="age">Age in Years:</label><br>
+        <input type="text" name="greet" id="age"><br>
+    </form>
+
+    <br>
+    <input type="button" value="SUBMIT" onclick="greet();">
+
+    <hr>
+
+    <h2>Warm-Up trivial question</h2>
+    <p>What is the only food that cannot go bad?</p>
+    <p id="trivia-answer"></p>
+    <form action="">
+    
+        <input type="radio" name="trivia" id="chocolate">
+        <label for="chocolate">Dark Chocolate</label><br>
+        <input type="radio" name="trivia" id="tuna">
+        <label for="tuna">Canned Tuna</label><br>
+        <input type="radio" name="trivia" id="honey">
+        <label for="honey">Honey</label>
+        
+    </form>
+
+    <br>
+    <input type="button" value="SUBMIT" onclick="trivia();">
+
+    <hr>
+
+    <h2>Two Truths and a Lie. Which one is the Lie?</h2>
+    <p id="lie-answer"></p>
+    <form action="">
+        <input type="radio" name="truths" id="chickens">
+        <label for="chickens">I have chickens</label><br>
+        <input type="radio" name="truths" id="strawberries">
+        <label for="strawberries">I don't like strawberries</label><br>
+        <input type="radio" name="truths" id="ski">
+        <label for="ski">I ski every winter</label>
+    </form>
+
+    <br>
+    <input type="button" value="SUBMIT" onclick="lieGame();">
+    
+
+
+    <script src="js/game.js"></script>
+</body>
+</html>
