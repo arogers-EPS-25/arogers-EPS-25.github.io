@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boot Strap Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-sm bg-primary nav-dark">
+<!--Adding a Logo-->
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="images/book-logo.jpg" alt="book logo" style="width:40px;" class="rounded-pill">
+                </a>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About Me</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Contacts</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container p-5 m-5 mx-auto bg-dark text-white border">
+        <h2>My First Bootstrap Page</h2>
+        <p>This part is inside a container class.</p>
+        <p>It doesn't take up the width of the screen.</p>
+
+    </div>
+
+    <div class="container-fluid p-2 m-3 mx-auto bg-primary text-white border">
+        <h2>Second Contianer</h2>
+        <p>This is part of a container-fluid class.</p>
+        <p>It takes up the width of the screen.</p>
+    </div>
+
+    <!--Bootstrap Grid-->
+    <div class="row text-white">
+        <div class="col-md-3">
+            <h2>Bootstrap is for HTML</h2>
+            <p>HTML is for content. The link does not work.</p>
+            <a class="btn btn-primary" href="#" role="button">More on HTML</a>
+        </div>
+
+        <div class="col-md-3">
+            <h2>Bootstrap is for CSS</h2>
+            <p>CSS makes things look pretty. The link does not work.</p>
+            <a class="btn btn-success" href="#" role="button">More on CSS</a>
+        </div>
+
+        <div class="col-md-2">
+            <h2>Bootstrap is for JS</h2>
+            <p>JS can be used for interactive functions. The link does not work.</p>
+            <a class="btn btn-info" href="#" role="button">More on JS</a>
+        </div>
+
+        <div class="col-md-2">
+            <h2>Bootstrap is fun</h2>
+            <p>I like using Bootstrap. The link does not work.</p>
+            <a class="btn btn-warning" href="#" role="button">More on JS</a>
+        </div>
+
+        <div class="col-md-2">
+            <h2>Bootstrap is useful.</h2>
+            <p>It adds in a lot of cool functions. The link does not work.</p>
+            <a class="btn btn-danger" href="#" role="button">More on JS</a>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
