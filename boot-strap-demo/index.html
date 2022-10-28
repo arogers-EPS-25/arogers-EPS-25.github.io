@@ -17,7 +17,7 @@
 <body class="bg-dark">
 
     <nav class="navbar navbar-expand-sm bg-primary nav-dark">
-<!--Adding a Logo-->
+        <!--Adding a Logo-->
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <a class="navbar-brand" href="#">
@@ -31,7 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#">About Me</a>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Contacts</a>
                 </li>
@@ -40,6 +40,72 @@
 
     </nav>
 
+
+
+    <!--Carousel of images-->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+
+        <!--Images-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/pattern1.jpg" alt="Leaf Pattern" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Leaf Pattern</h3>
+                    <p>Connected to nature!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pattern2.jpg" alt="Hexigon pattern" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Hexigon Pattern</h3>
+                    <p>Very modern!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pattern3.jpg" alt="brown pattern" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Brown Circle Pattern</h3>
+                    <p>Calming!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pattern4.jpg" alt="colorful pattern" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Painted Pattern</h3>
+                    <p>So abstract!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pattern5.jpg" alt="pink pattern" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Pink Pattern</h3>
+                    <p>Looks like butterflies!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+
+    <!--Containers-->
     <div class="container p-5 m-5 mx-auto bg-dark text-white border">
         <h2>My First Bootstrap Page</h2>
         <p>This part is inside a container class.</p>
@@ -54,14 +120,15 @@
     </div>
 
     <!--Bootstrap Grid-->
+    <!--I decided to span 2, 2, 2, 2, 2, 2 because it looks better. There are 6 sections.-->
     <div class="row text-white">
-        <div class="col-md-3">
+        <div class="col-md-2">
             <h2>Bootstrap is for HTML</h2>
             <p>HTML is for content. The link does not work.</p>
             <a class="btn btn-primary" href="#" role="button">More on HTML</a>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-2">
             <h2>Bootstrap is for CSS</h2>
             <p>CSS makes things look pretty. The link does not work.</p>
             <a class="btn btn-success" href="#" role="button">More on CSS</a>
@@ -83,6 +150,20 @@
             <h2>Bootstrap is useful.</h2>
             <p>It adds in a lot of cool functions. The link does not work.</p>
             <a class="btn btn-danger" href="#" role="button">More on JS</a>
+        </div>
+
+        <div class="col-md-2">
+            <h2>Dropdown Buttons</h2>
+            <p>There are drop down buttons in BS5.</p>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown
+                    Button</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+            </div>
         </div>
 
     </div>
