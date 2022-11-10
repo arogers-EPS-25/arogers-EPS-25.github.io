@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../boot-strap-demo"
+		},
+		{
+			"path": "../../mid-term/anvikasinghal.github.io/help-your-community"
+		},
+		{
+			"path": "../final-project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "final-project"
+	}
+}

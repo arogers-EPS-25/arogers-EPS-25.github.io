@@ -1,0 +1,189 @@
+/*colors*/
+.bronze {
+    color: #CB8343;
+}
+
+.avocado {
+    color: #4E8200;
+}
+
+.olive {
+    background-color: #6C9108;
+}
+
+.earth-yellow {
+    color: #D8AE69;
+}
+
+.background-color {
+    background-color: #efe2c1;
+}
+
+/*nav bar*/
+.as_nav {
+    list-style: none;
+    text-align: center;
+}
+
+
+.as_nav li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.nav-bar {
+    grid-column: 1 / span 6;
+    grid-row: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6C9108;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: large;
+}
+
+ul li a:hover {
+    background-color: #536f07;
+}
+
+/*logo
+.logo {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+*/
+
+.sams-logo-size{
+    width: auto;
+    height: 50px;
+}
+/*Grid*/
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 16.65% 16.65% 16.65% 16.65% 16.65% 16.65%;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+/*Header*/
+.header {
+    grid-column: 1 / span 6;
+    grid-row: 2;
+
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+/*boats image*/
+.boats-img {
+    grid-column: 1 / span 6;
+    grid-row: 2;
+}
+
+.boats-size {
+    height: auto;
+    width: 100%;
+}
+
+/*about*/
+.about-text {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+.about-image {
+    grid-column: 4 / span 3;
+    grid-row: 3;
+}
+
+.child-size {
+    height: auto;
+    width: 75%;
+}
+
+/*quote*/
+.quote-image {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+}
+
+.quote-image-size {
+    width: 75%;
+    height: auto;
+}
+
+.quote-text {
+    grid-column: 4 / span 3;
+    grid-row: 4;
+}
+
+.quote-align {
+    text-align: left;
+}
+
+/*footer*/
+
+.footer {
+    grid-column: 1 / span 6;
+    grid-row: 5;
+}
+
+.footer-grid-container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 16.65% 16.65% 16.65% 16.65% 16.65% 16.65%;
+}
+
+
+.footer-header1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footer-header2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.footer-header3 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.footer-header4 {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.footer-grid-item {
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+}
