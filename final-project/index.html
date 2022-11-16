@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Sam's Noodle Town</title>
     <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 
 <body class="background-color">
@@ -17,17 +15,17 @@
 
         <div class="as_container grid-item nav-bar">
             <ul class="as_nav">
-                <li><img src="images/sams-logo.webp" alt="Sam's noodle town logo" style = "min-width: 40px;"
-                    class="logo sams-logo-size"></li>
+                <li><img src="images/sams-logo.webp" alt="Sam's noodle town logo" style="min-width: 40px;"
+                        class="logo sams-logo-size"></li>
                 <li><a id="current" href="index.html">HOME</a></li>
                 <li><a href="menu.html">MENU</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
             </ul>
         </div>
         <div class="grid-item header">
-            <h1 class="centered bronze">Sam's Noodle Town</h1>
+            <h1 class="centered bronze2">Sam's Noodle Town</h1>
         </div>
-        <div class="grid-item boats-img"><img src="images/sams-boats.webp" alt="boats in a harbor" class="boats-size">
+        <div class="grid-item boats-img"><img src="images/sams-boats.webp" alt="boats in a harbor" class="boats-size ">
         </div>
 
         <div class="grid-item about-text">
@@ -37,11 +35,11 @@
         </div>
 
         <div class="grid-item about-image">
-            <img src="images/sams-child.webp" alt="Child eating soup" class="child-size">
+            <img src="images/sams-child.webp" alt="Child eating soup" class="child-size img-border">
         </div>
 
         ` <div class="grid-item quote-image">
-            <img src="images/sams-pork.jpg" alt="noodle bowl" class="quote-image-size">
+            <img src="images/sams-pork.jpg" alt="noodle bowl" class="quote-image-size img-border">
         </div>
 
         <div class="grid-item quote-text">
@@ -50,42 +48,72 @@
             <p style="font-size: x-large;" class="quote-align">Yin Shui Si Yuan</p>
         </div>
 
+        <div class="grid-item name">
+            <h2>Welcome to Sam's Noodle Town!</h2>
+            <button onclick="askName()" class="button-greeting">What is your name?</button>
+            <p id="askName"></p>
+        </div>
 
 
-        <div class="footer-grid-container grid-item footer olive">
-            <!--Section 1-->
-            <div class="footer-grid-item footer-header1">
-                <h4>Restaurant Address</h4>
-                <p style="font-size: 15px;">31722 W. Eugene St., Ste 7</p>
-                <p style="font-size: medium;">Carnation, WA 98014</p>
-                <a href="https://www.google.com/maps/place/31722+W+Eugene+St+%237,+Carnation,+WA+98014/@47.6469746,-121.9180017,17z/data=!3m1!4b1!4m5!3m4!1s0x54907698478ef681:0x336f6c4a423d4aa3!8m2!3d47.646971!4d-121.915813?hl=en" style="font-size: medium;">(Google Maps)</a>
-                <p> </p>
-            </div>
-            <!--Section 2-->
-            <div class="footer-grid-item footer-header2">
-                <h4>Opening Hours</h4>
-                <p style="font-size: medium;">Monday & Tuesday: Closed</p>
-                <p style="font-size: medium;">Wednesday - Saturday: 11am - 9pm</p>
-                <p style="font-size: medium;">Sunday: 11am - 8pm</p>
-            </div>
 
-            <!--Section 3-->
-            <div class="footer-grid-item footer-header3">
-                <h4>Contact</h4>
-                <p style="font-size: medium;">(425) 333 - 6288</p>
-            </div>
 
-            <!--Section 4-->
-            <div class="footer-grid-item footer-header4">
-                <h4>Follow</h4>
-            </div>
-        
+
+    </div>
+
+    <div class="footer-grid-container grid-item footer olive">
+        <!--Section 1-->
+        <div class="footer-grid-item footer-header1">
+            <h4>Restaurant Address</h4>
+            <p style="font-size: 15px;">31722 W. Eugene St., Ste 7</p>
+            <p style="font-size: medium;">Carnation, WA 98014</p>
+            <a href="https://www.google.com/maps/place/31722+W+Eugene+St+%237,+Carnation,+WA+98014/@47.6469746,-121.9180017,17z/data=!3m1!4b1!4m5!3m4!1s0x54907698478ef681:0x336f6c4a423d4aa3!8m2!3d47.646971!4d-121.915813?hl=en"
+                style="font-size: medium;" target="_blank">(Google Maps)</a>
+            <p> </p>
+        </div>
+        <!--Section 2-->
+        <div class="footer-grid-item footer-header2">
+            <h4>Opening Hours</h4>
+            <p style="font-size: medium;">Monday & Tuesday: Closed</p>
+            <p style="font-size: medium;">Wednesday - Saturday: 11am - 9pm</p>
+            <p style="font-size: medium;">Sunday: 11am - 8pm</p>
+        </div>
+
+        <!--Section 3-->
+        <div class="footer-grid-item footer-header3">
+            <h4>Contact</h4>
+            <p style="font-size: medium; font-weight: 600;">(425) 333 - 6288</p>
+        </div>
+
+        <!--Section 4-->
+        <div class="footer-grid-item footer-header4">
+            <h4>Follow</h4>
+            <ol>
+                <li style="font-size: 16px;"><a href="https://www.yelp.com/biz/sams-noodle-town-carnation"
+                        target="_blank" class="follow-text">Yelp</a></li>
+                <li style="font-size: 16px;"><a href="https://www.facebook.com/samsnoodletown/" target="_blank"
+                        class="follow-text">Facebook</a></li>
+                <li style="font-size: 16px;"><a
+                        href="https://foursquare.com/v/sams-noodle-town/5621a215498ebb1cce545eeb" target="_blank"
+                        class="follow-text">FourSquare</a></li>
+            </ol>
+
+
+
         </div>
 
     </div>
 
 
 
+
+    <script>
+        function askName() {
+            let nameParagraph = document.getElementById('askName');
+            let name = prompt("What is your name?")
+            nameParagraph.innerHTML = "Hello " + name + "! We hope you enjoy our food!"
+        }
+
+    </script>
 
 
 </body>
